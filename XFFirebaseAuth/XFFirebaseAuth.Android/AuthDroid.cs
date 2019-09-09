@@ -33,7 +33,7 @@ namespace XFFirebaseAuth.Droid
 
         public string GetUserEmail()
         {
-            return FirebaseAuth.Instance.SignInWithCredential();
+            return FirebaseAuth.Instance.CurrentUser.Email;
         }
     }
 }
