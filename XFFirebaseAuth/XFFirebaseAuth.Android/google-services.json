@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "494886899691",
+    "firebase_url": "https://xffirebaseauth-7151b.firebaseio.com",
+    "project_id": "xffirebaseauth-7151b",
+    "storage_bucket": "xffirebaseauth-7151b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494886899691:android:2fa362d4644df1f74993ae",
+        "android_client_info": {
+          "package_name": "com.ferreirafernandar.meulogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "494886899691-p8o5lpv67ll6jeebpqos23lik6k5jnec.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMbDcQKUHcth6Vpuj7RxlAGqHlLNy_-CY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "494886899691-p8o5lpv67ll6jeebpqos23lik6k5jnec.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

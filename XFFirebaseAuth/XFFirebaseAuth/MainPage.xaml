@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="XFFirebaseAuth.MainPage">
+
+    <StackLayout
+        VerticalOptions="Center"
+        Margin="20">
+        
+        <Label
+            Text="Meu Login"
+            HorizontalOptions="Center"
+            TextColor="#4682B4"
+            FontSize="35"
+            Margin="0, 20"
+        />
+        
+        <Entry
+            Placeholder="E-mail"
+            Keyboard="Email"
+            x:Name="EmailInput"
+        />
+        
+        <Entry
+            Placeholder="Senha"
+            IsPassword="true"
+            x:Name="PasswordInput"
+        />
+        
+        <Button
+            Text="Entrar"
+            Clicked="LoginClicked"
+            Margin="60, 40"
+            BackgroundColor="#4682B4"
+            TextColor="White"
+        />
+
+        <!--<Button 
+            Text="Fazer Login com Facebook" 
+            Clicked="LoginFacebookClicked" 
+            x:Name="btnLogar" />-->
+
+        <Button
+            Text="Criar conta"
+            Clicked="CreateAccountClicked"
+            Margin="60, 40"
+            BackgroundColor="White"
+            FontSize="Small"
+            TextColor="#4682B4"
+        />
+        
+    </StackLayout>
+
+</ContentPage>
